@@ -2,12 +2,15 @@ package br.com.atavares.pedido.entities;
 
 import java.io.Serializable;
 
+//import org.springframework.data.mongodb.core.mapping.Document;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
+//@Document(collection = "user")
 @Entity
 @Table(name = "tb_user")
 public class User implements Serializable {
